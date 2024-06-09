@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class AnotherExample {
 
-    @GetMapping("/radical")
+@GetMapping("/radical")
     public String index() {
         return "This is radical!";
     }
