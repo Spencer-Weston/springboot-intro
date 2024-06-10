@@ -1,0 +1,7 @@
+injectedconfig:
+  age-multiplier: 2
+  default-description: "the silliest name"
+
+spring:
+  profiles:
+    active: dev
